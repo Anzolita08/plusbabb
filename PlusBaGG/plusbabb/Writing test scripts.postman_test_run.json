@@ -1,0 +1,105 @@
+{
+	"id": "a863e28f-a78c-4dea-8f77-09c0a03a3b51",
+	"name": "Writing test scripts",
+	"allTests": [],
+	"timestamp": "2019-09-21T04:07:23.086Z",
+	"collection_id": "7aaa3fe3-e791-4162-ba27-7fdd10a29476",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "7aaa3fe3-e791-4162-ba27-7fdd10a29476",
+		"name": "Writing test scripts",
+		"description": null,
+		"auth": null,
+		"events": [
+			{
+				"listen": "prerequest",
+				"script": {
+					"id": "06d2bb9a-e55f-431e-b124-98ce9a7c4fd8",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			},
+			{
+				"listen": "test",
+				"script": {
+					"id": "99d9d036-7a45-484d-9164-35ba6cdd3c7c",
+					"type": "text/javascript",
+					"exec": [
+						""
+					]
+				}
+			}
+		],
+		"variables": null,
+		"order": [
+			"3cf186b8-bfcc-4c62-9318-ce790fa453e4",
+			"70520c55-59d1-4447-bf08-80e575a7fc4c",
+			"4b102932-4051-4d9d-bc2c-0200ea1ab243",
+			"a6d4b5fb-6428-4b87-bc2f-f039e5e2d572",
+			"e608fd65-97f5-4222-afd7-ddafc6fed831"
+		],
+		"folders_order": [],
+		"owner": "8885577",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [],
+	"results": [
+		{
+			"name": "http://localhost/plusbabb/index.php",
+			"id": "e608fd65-97f5-4222-afd7-ddafc6fed831",
+			"url": "http://localhost/plusbabb/index.php",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				"83"
+			],
+			"allTests": [
+				{}
+			],
+			"time": "83",
+			"totalRequestTime": "83",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 0,
+	"totalFail": 0,
+	"totalTime": 83,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "http://localhost/plusbabb/index.php",
+			"id": "e608fd65-97f5-4222-afd7-ddafc6fed831",
+			"url": "http://localhost/plusbabb/index.php",
+			"time": "2019-09-21T04:07:23.086Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
